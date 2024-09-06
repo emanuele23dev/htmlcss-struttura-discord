@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* #color palette */
+
+:root {
+  --block-1: #42002e;
+  --block-2: #590054;
+  --block-3: #720137;
+  --block-4: #5e0009;
+  --block-5: #460002;
+  --block-6: #a2005c;
+}
+
+/* debug region */
+
+.debug *{
+    border: 3px dashed rgb(255, 255, 255);
+}
+
+.bg{
+    background-color: var(--block-1);
+    height: 70px;
+}
+
+.space1, .space3{
+    width: 10%;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.space2{
+    width: 30%;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.space1{
+    padding-left: 10px;
+}
+
+.space3{
+    text-align: right;
+    padding-right: 10px;
+}
