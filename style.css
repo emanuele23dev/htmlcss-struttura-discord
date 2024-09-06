@@ -1,17 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
-.flex-container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 /* #color palette */
@@ -26,156 +26,190 @@ img{
 /* end #color palette */
 
 /* debug region */
-.debug *{
-    border: 3px dashed rgb(255, 255, 255);
+.debug * {
+  border: 3px dashed rgb(255, 255, 255);
 }
 /* end debug region */
 
 /* Header */
-.bg{
-    background-color: var(--block-1);
-    height: 70px;
+.bg {
+  background-color: var(--block-1);
+  height: 70px;
 }
 
-.space1, .space3{
-    width: 10%;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.space1,
+.space3 {
+  width: 10%;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.space2{
-    width: 30%;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
+.space2 {
+  width: 30%;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
-.space1{
-    padding-left: 10px;
+.space1 {
+  padding-left: 10px;
 }
 
-.space3{
-    text-align: right;
-    padding-right: 10px;
+.space3 {
+  text-align: right;
+  padding-right: 10px;
 }
 /* end Header */
 
 /* Main */
 /* First section */
-.bg-1{
-    background-color: var(--block-2);
-    height: 400px;
+.bg-1 {
+  background-color: var(--block-2);
+  height: 400px;
 }
 
-.rectangle{
-    height: 300px;
-    width: 60%;
-    background-color: var(--block-3);
+.rectangle {
+  height: 300px;
+  width: 60%;
+  background-color: var(--block-3);
 }
 /* end First section */
 
 /* Second section */
-.bg-2{
-    background-color: var(--block-5);
-    height: 600px;
+.bg-2 {
+  background-color: var(--block-5);
+  height: 600px;
 }
 
-.rectangle2{
-    height: 500px;
-    width: 40%;
-    background-color: var(--block-1);
+.rectangle2 {
+  height: 500px;
+  width: 40%;
+  background-color: var(--block-1);
 }
 
-.rectangle3{
-    height: 500px;
-    width: 30%;
-    background-color: var(--block-2);
+.rectangle3 {
+  height: 500px;
+  width: 30%;
+  background-color: var(--block-2);
 }
 /* end Second section */
 
 /* third section */
-.flex-container1{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row-reverse;
+.flex-container1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row-reverse;
 }
 
-.bg-3{
-    background-color: var(--block-6);
-    height: 600px;
+.bg-3 {
+  background-color: var(--block-6);
+  height: 600px;
 }
 
-.rectangle2{
-    height: 500px;
-    width: 40%;
-    background-color: var(--block-1);
+.rectangle2 {
+  height: 500px;
+  width: 40%;
+  background-color: var(--block-1);
 }
 
-.rectangle3{
-    height: 500px;
-    width: 30%;
-    background-color: var(--block-2);
+.rectangle3 {
+  height: 500px;
+  width: 30%;
+  background-color: var(--block-2);
 }
 /* end third section */
 
 /* fourth section */
-.bg-4{
-    background-color: var(--block-4);
-    height: 600px;
+.bg-4 {
+  background-color: var(--block-4);
+  height: 600px;
 }
 
-.rectangle2{
-    height: 500px;
-    width: 40%;
-    background-color: var(--block-1);
+.rectangle2 {
+  height: 500px;
+  width: 40%;
+  background-color: var(--block-1);
 }
 
-.rectangle3{
-    height: 500px;
-    width: 30%;
-    background-color: var(--block-2);
+.rectangle3 {
+  height: 500px;
+  width: 30%;
+  background-color: var(--block-2);
 }
 /* end fourth section */
 
 /* fifth section */
-.bg-1{
-    background-color: var(--block-2);
-    height: 800px;
+.bg-1 {
+  background-color: var(--block-2);
+  height: 800px;
 }
 
-.rectangle4{
-    height: 650px;
-    width: 70%;
-    background-color: var(--block-3);
+.rectangle4 {
+  height: 650px;
+  width: 70%;
+  background-color: var(--block-3);
 }
 /* end fifth section */
 
 /* footer */
-footer{
-    background-color: var(--block-5);
-    height: 700px;
+footer {
+  background-color: var(--block-5);
+  height: 700px;
 }
 
-.first-d, .second-d{
-    height: 500px;
-    margin-top: 30px;
+.first-d,
+.second-d {
+  height: 500px;
+  margin-top: 30px;
 }
 
-.first-d{
-    width: 30%;
-    background-color: var(--block-1);
+.first-d {
+  width: 30%;
+  background-color: var(--block-1);
 }
 
-.second-d{
-    width: 10%;
-    background-color: var(--block-6);
+.second-d {
+  width: 10%;
+  background-color: var(--block-6);
 }
 
-.color-w{
-    color: white;
-    margin-top: 40px;
-    margin-bottom: 25px;
+.color-w {
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.bg-fb {
+  background-color: var(--block-3);
+  height: 100px;
+  width: 70%;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.logo-f {
+  background-color: white;
+  border: 1px dashed black;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.bottone-f {
+  border: 1px dashed black;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 500;
 }
