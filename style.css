@@ -143,13 +143,39 @@ img{
 /* fifth section */
 .bg-1{
     background-color: var(--block-2);
-    height: 600px;
+    height: 800px;
 }
 
 .rectangle4{
-    height: 600px;
+    height: 650px;
     width: 70%;
     background-color: var(--block-3);
 }
 /* end fifth section */
 
+/* footer */
+footer{
+    background-color: var(--block-5);
+    height: 700px;
+}
+
+.first-d, .second-d{
+    height: 500px;
+    margin-top: 30px;
+}
+
+.first-d{
+    width: 30%;
+    background-color: var(--block-1);
+}
+
+.second-d{
+    width: 10%;
+    background-color: var(--block-6);
+}
+
+.color-w{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
