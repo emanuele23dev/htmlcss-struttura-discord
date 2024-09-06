@@ -12,6 +12,7 @@ img {
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
 }
 
 /* #color palette */
@@ -34,7 +35,8 @@ img {
 /* Header */
 .bg {
   background-color: var(--block-1);
-  height: 70px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .space1,
@@ -67,7 +69,6 @@ img {
 /* First section */
 .bg-1 {
   background-color: var(--block-2);
-  height: 400px;
 }
 
 .rectangle {
@@ -106,7 +107,8 @@ img {
 
 .bg-3 {
   background-color: var(--block-6);
-  height: 600px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .rectangle2 {
@@ -140,6 +142,7 @@ img {
   background-color: var(--block-2);
 }
 /* end fourth section */
+/* end Main */
 
 /* fifth section */
 .bg-1 {
@@ -192,6 +195,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  align-items: center;
 }
 
 .logo-f {
@@ -213,3 +217,4 @@ footer {
   vertical-align: middle;
   font-weight: 500;
 }
+
